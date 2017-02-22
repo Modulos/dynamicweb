@@ -1,0 +1,24 @@
+#A simple configuration file containing the parameters to connect to 
+#an openNebula infrastructure using XML RPC.
+
+# The user name of the OpenNebula infrastructure
+userName = 'oneadmin'
+
+# The password of the OpenNebula infrastructure
+# The default credentials of the Sandbox OpenNebula VM is 
+# oneadmin:opennebula
+password = 'opennebula'
+
+# The protocol is generally http or https
+protocol = 'http'
+
+# The ip address or the domain name of the opennebula infrastructure
+ipAddress= '192.168.43.2'
+
+# The port to connect in order to send an xmlrpc request. The default 
+# port is 2633
+port = '2633'
+
+# The endpoint to which the XML RPC request needs to be sent to. The 
+# default value is /RPC2
+endPoint = '/RPC2'
